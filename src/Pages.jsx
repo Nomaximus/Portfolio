@@ -487,7 +487,7 @@ function Timeline() {
     </div>
   );
 }
-
+/* Home page */
 export function HomePage() {
   return (
     <>
@@ -513,7 +513,6 @@ export function HomePage() {
       <section className="metrics section-wrap" aria-label="Portfolio highlights">
         <div><strong>2+</strong><span>Student projects</span></div><div><strong>12+</strong><span>BPMN workflows</span></div><div><strong>3.47</strong><span>Academic CGPA</span></div><div><strong>6</strong><span>Areas of practice</span></div>
       </section>
-/* Little information section */
       <section className="content-section section-wrap">
         <div className="section-heading section-heading-row"><div><span className="section-index">A QUICK INTRODUCTION</span><h2>Curiosity became <em>a method.</em></h2></div><p>I make organizational processes visible, question the friction, and shape systems people can actually use.</p></div>
         <article className="about-statement panel"><span className="tiny-label">MY APPROACH</span><p>Every organization has a hidden architecture: handoffs, rules, records, and decisions. I’m interested in making them work better together.</p><Link className="text-link" to="/about">More about me <Icon name="fa-arrow-right" /></Link></article>
